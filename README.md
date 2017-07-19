@@ -7,6 +7,7 @@ Action/Client Interface to test robot functionalities, such as executing CDS mod
 | [kuka-rviz-simulation](https://github.com/epfl-lasa/kuka-rviz-simulation)           |
 | [state-transformers](https://github.com/epfl-lasa/state-transformers) |
 | [CDS](https://github.com/epfl-lasa/coupled-dynamical-systems) |
+|[task-planning](https://github.com/epfl-lasa/task-motion-planning-cds)|
 
 ---
 #### To test this interface in simulation
