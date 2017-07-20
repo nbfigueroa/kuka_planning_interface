@@ -1,0 +1,21 @@
+- git:
+    local-name: kuka_interface_package
+    uri: https://github.com/epfl-lasa/kuka_interface_packages.git
+- git:
+    local-name: robot-toolkit
+    uri: https://github.com/epfl-lasa/robot-toolkit.git
+- git:
+    local-name: motion-generators
+    uri: https://github.com/epfl-lasa/motion-generators.git
+- git:
+    local-name: kuka-rviz-simulation
+    uri: git@github.com:epfl-lasa/kuka-rviz-simulation.git
+- git:
+    local-name: state-transformers
+    uri: git@github.com:epfl-lasa/state-transformers.git
+- git:
+    local-name: coupled-dynamical-systems
+    uri: git@github.com:epfl-lasa/coupled-dynamical-systems.git
+- git:
+    local-name: task-motion-planning-cds
+    uri: git@github.com:epfl-lasa/task-motion-planning-cds.git
