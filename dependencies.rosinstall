@@ -1,12 +1,12 @@
 - git:
     local-name: kuka_interface_package
-    uri: https://github.com/epfl-lasa/kuka_interface_packages.git
+    uri: git@github.com:epfl-lasa/kuka_interface_packages.git
 - git:
     local-name: robot-toolkit
-    uri: https://github.com/epfl-lasa/robot-toolkit.git
+    uri: git@github.com:epfl-lasa/robot-toolkit.git
 - git:
     local-name: motion-generators
-    uri: https://github.com/epfl-lasa/motion-generators.git
+    uri: git@github.com:epfl-lasa/motion-generators.git
 - git:
     local-name: kuka-rviz-simulation
     uri: git@github.com:epfl-lasa/kuka-rviz-simulation.git
