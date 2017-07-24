@@ -1,13 +1,23 @@
 # kuka_planning_interface
 Action/Client Interface to test robot functionalities, such as executing CDS models + setting stiffness for teaching modes + simple motion generators in task and joint space.
 
-| Dependencies  |
-| ------------- |
-| [kuka_interface_packages](https://github.com/nbfigueroa/kuka_interface_packages)    |
-| [kuka-rviz-simulation](https://github.com/epfl-lasa/kuka-rviz-simulation)           |
-| [state-transformers](https://github.com/epfl-lasa/state-transformers) |
-| [CDS](https://github.com/epfl-lasa/coupled-dynamical-systems) |
-|[task-planning](https://github.com/epfl-lasa/task-motion-planning-cds)|
+## Dependencies
+
+First, you need to install wstool:
+```
+$ sudo apt-get install python-wstool
+```
+From your catkin src directory, write the following lines:
+```
+$  wstool init
+$  wstool merge kuka_planning_interface/dependencies.rosinstall 
+$  wstool up
+```
+wstool gets all other git repository dependencies. After the steps above you should see extra catking packages in your src directory.
+Finally, you need to install manually some additional packages as follows:
+```
+$ sudo apt-get install ros-indigo-pr2-mechanism-model ros-indigo-pr2-controller-manager ros-indigo-control-toolbox ros-indigo-pr2-mechanism-controllers
+```
 
 ---
 #### To test this interface in simulation
